@@ -4,27 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Algoritmo 14</title>
     <script src="script.js"></script>
 </head>
 <body>
+    <div class="fds">
     <h1>Algoritmo 14</h1>
-    <style>
-        body{
-            text-align: center;
-            background-image: url("https://wallpapercave.com/wp/wp10680385.jpg");
-            background-size: cover;
-            color: white;
-        }
-    </style>
-
+    
+    
     <input type="number" placeholder="Preço do produto: " id="preco"><br><br>
     <button onclick="desconto()"> Aplicar desconto </button><br><br>
     <p id="r">Resposta</p><br><br><br>
-    <div style="display: flex; margin: 20px;" >
+
+
         <img src="visualg.png" height="500" width="700"> <br><br>
         <img src="js.png" height="300" width="700"> <br><br>
     </div>
+        <pre><code id="code-snippet">
+Algoritmo "semnome"
+
+Var
+
+preco:              real
+desconto:      real
+novoPreco: real
+
+
+Inicio
+
+    escreva("Preço do produto: ")
+        leia(preco)
+        desconto <- preco/5
+        novoPreco <- preco - desconto
+        escreva("O novo preço do produto sera: ", novoPreco)
+
+Fimalgoritmo
+        </code></pre>
+
+ 
     
 
 
