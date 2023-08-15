@@ -3,5 +3,5 @@ function desconto(){
     var desconto = preco/5
     var novopreco = preco - desconto
 
-    document.getElementById("r").innerHTML = ("O novo preço do produto sera: " , novopreco)
+    document.getElementById("r").innerHTML = ("O novo preço do produto sera: " + novopreco)
 }
